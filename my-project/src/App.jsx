@@ -1,6 +1,8 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import k from './assets/img/k.svg'
+import kk from './assets/img/kk.svg'
+import logo_ebath from './assets/img/logo_ebath.jpg'
 import viteLogo from '/vite.svg'
 import './App.css'
 
@@ -20,7 +22,8 @@ function App() {
           <img src={k} className="logo react" alt="React logo" />
         </a>
       </div>
-      <img src="../src/assets/img/10k.svg" alt="" width={100} height={100} />
+      <img src={kk} alt="" width={100} height={100} />
+      <img src={logo_ebath} alt="" width={100} height={100} />
       <h1>Vite + React</h1>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
