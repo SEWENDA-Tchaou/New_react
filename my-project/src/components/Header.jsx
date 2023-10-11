@@ -1,18 +1,20 @@
 import Navbar from "../components/Navbar";
+import Footer from "../components/Footer"
 // import sewenda_refait from '../assets/img/sewenda_refait.png'
 
 function Header() {
 
 
   return (
+    <>
     <header className="text-blue-300">
         <Navbar />
         <div
-            className="absolute bg-black h-full w-full colorBgAcceuil z-20 top-0 left-0 "
+            className="absolute bg-black h-[100vh] w-full colorBgAcceuil z-20 top-0 left-0 "
             // style={{ backgroundImage: 'url(../src/assets/img/fond_noir.png)' }}
         >
 
-            <div className=" h-full lg:flex justify-center items-center">
+            <div className=" lg:h-full lg:flex justify-center items-center">
                 <div className="lg:w-1/2 mt-10">
                     <h1 className="first-texte text-xl mt-40 lg:mt-[-100px] lg:text-2xl  text-center sm:text-left text-blanc/95 font-bold mx-20">
                         Bonjour, je suis SEWENDA TCHAOU                
@@ -34,12 +36,9 @@ function Header() {
                 </div>
             </div>
         </div>
-        {/* <div
-            className="block z-10 top-0 left-0 w-full bg-cover bg-center bg-no-repeat h-[60vh] bg-[url('/assets/img/docteur1.png')]"
-            // style={{ backgroundImage: `url(../src/assets/img/${imageName})` }}
-        >
-        </div> */}
     </header>
+        <Footer />
+        </>
   )
 }
 

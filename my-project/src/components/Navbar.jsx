@@ -38,7 +38,7 @@ function Navbar() {
   return (
   <nav className={"w-full bg-black text-blue-300 fixed z-30"} ref={navRef}>
       <div 
-      className="flex justify-between items-center px-5 lg:px-16 py-4 lg:py-2 transition duration-500">
+      className="flex justify-between items-center p-5 lg:px-16  lg:py-2 transition duration-500">
         <a href="/" className="font-bold text-2xl">
           SEWENDA TCHAOU
         </a>

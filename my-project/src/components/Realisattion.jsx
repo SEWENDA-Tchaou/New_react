@@ -1,7 +1,7 @@
 import Navbar from "../components/Navbar";
 import projet1 from "../assets/img/projet1.png";
 import projet2 from "../assets/img/projet2.png";
-
+import Footer from "../components/Footer"
 
 function Realisattion() {
   return (
@@ -27,7 +27,7 @@ function Realisattion() {
               </a>
             </div>
         </div>
-        <div className="my-5">
+        {/* <div className="my-5">
             <div className="flex justify-around items-center space-x-5">
               <a href="" className="border border-white/70 w-[300px] h-40 rounded-md">
 
@@ -39,9 +39,10 @@ function Realisattion() {
                  
               </a>
             </div>
-        </div>
+        </div> */}
        </div>
     </div>
+    <Footer />
     </>
   )
 }
