@@ -1,0 +1,7 @@
+.bg-mon-image:hover{
+  background-color: black;
+  opacity: 0.5;
+  width: 50%;
+  height: 60vh;
+  transition: 2s;
+}
